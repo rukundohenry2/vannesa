@@ -1,0 +1,30 @@
+body {
+  background-image: url("../media/butterfly-g72d828688_1280.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+body .cenever {
+  border: blue solid 2px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 20px;
+  align-items: center;
+}
+body .cenever h1 {
+  text-transform: uppercase;
+  color: white;
+}
+body .cenever p {
+  color: white;
+}
+body .cenever img {
+  width: 100%;
+}
