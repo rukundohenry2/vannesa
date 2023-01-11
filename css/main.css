@@ -11,12 +11,12 @@ body {
   height: 100vh;
 }
 body .cenever {
-  border: blue solid 2px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
   padding: 20px;
   align-items: center;
+  background-color: rgba(0, 0, 0, 0.676);
 }
 body .cenever h1 {
   text-transform: uppercase;
@@ -27,4 +27,12 @@ body .cenever p {
 }
 body .cenever img {
   width: 100%;
+}
+body .profile {
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 80px;
+  border-radius: 50%;
+  border: solid 2px white;
 }
